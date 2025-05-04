@@ -32,10 +32,9 @@ function handleFormSubmit(e) {
         alert("Fill please all fields");
         return;
     
-}
-
+    }
     const form = e.currentTarget;
+    console.log(formData);
     localStorage.removeItem(STORAGE_KEY);
-
-    form.reset()
+form.reset()
 }
