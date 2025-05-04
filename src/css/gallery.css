@@ -5,7 +5,7 @@ ul {
 
 .gallery {
     width: 100%;
-    padding: 24px 156px;
+    padding: 24px 100px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
